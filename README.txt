@@ -28,7 +28,7 @@ The following python files uses the randomized optimization algorithms of Random
 6.flipflop.py uses all 4 randomized optimization algorithms to solve the FlipFlop problem.
 7.tsp.py uses all 4 randomized optimization algorithms to solve the Traveling Salesman problem.
 
-Log files under CS-7641-assignment-2 folder:
+Log files under Project_code folder:
 
 1.Final_NN folder has the log files of NN0.py, NN1.py, NN2.py and NN3.py
 2.FinalCont folder has the log files of continuouspeaks.py

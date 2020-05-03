@@ -9,14 +9,14 @@ Environment:
 The code was developed and exceuted in PyCharm using Jython 2.7 as interpreter and Windows 10 machine. The ABAGAIL.jar is built from the source java files and the python files are written in Jython 2.7.0.
 
 File structure:
-Inside Code_files folder, CS-7641-assignment-2 folder is stored.
-CS-7641-assignment-2 is the parent folder with the following sub-folders:
+Inside Code_files folder, Project_code folder is stored.
+Project_code  is the parent folder with the following sub-folders:
 	a.ABAGAIL folder having the jar file, ant build file and the java source files
 	b.Python files
 	c.Log files
 The contents of Python files and Log files are described later in this document. 
 
-Code files under CS-7641-assignment-2 folder:
+Code files under Project_code folder:
 	
 The following python files find the optimal weights of neural network built in Assignment-1 for Letter Recognition dataset.
 1.NN0.py uses backpropagation technique
@@ -39,9 +39,9 @@ Within these folders, the log files containing the plotting data are csv files a
 N and T(if applicable) are defined for each optimization problem inside the corresponding .py file.
 Some files have <Iteration_count> added at the end of the filename and this was for experimenting individual algorithmic convergence.
 
-Datasets under CS-7641-assignment-2 folder:
+Datasets under Project_code folder:
 
-The parsed and preprocessed dataset is stored in the following csv files under CS-7641-assignment-2 folder:
+The parsed and preprocessed dataset is stored in the following csv files under Project_code folder:
 1.m_train.csv has the training data
 2.m_val.csv has the validation data
 3.m_test.csv has the testing data.
@@ -49,7 +49,7 @@ The steps of preprocessing are detailed later in this README.
 
 How to run the code:
 
-1. The python files under CS-7641-assignment-2 can be run using Jython 2.7.0 interpreter.
+1. The python files under Project_code can be run using Jython 2.7.0 interpreter.
 2. Running each of the 7 above mentioned .py files populate the log files in corresponding folders.
  
 Notes:
@@ -69,7 +69,7 @@ The preprocessing of data was done in Weka. The steps are:
 7. From the training dataset, 10% of data is set as validation set and the rest 90% is training dataset.
 8.This 90%-10% split is done using weka-> filters -> supervised -> instance -> StratifiedRemoveFolds with fold value set as 1, numFolds as 10 and seed as 0.
 
-The preproceesed train, validation and test sets are included inside CS-7641-assignment-2 and are also available at:
+The preproceesed train, validation and test sets are included inside Project_code and are also available at:
 1. Letter Recognition train dataset 
 https://drive.google.com/open?id=1DTpmHsguCmWPmmez9fBFFdD8PFkbYYpv 
 2. Letter Recognition validation dataset
